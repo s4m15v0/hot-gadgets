@@ -1,0 +1,100 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    padding-bottom: 80px;
+  }
+  
+  .navbar-brand img {
+    width: 150px;
+  }
+  
+  .nav-link:hover {
+    color: #fb9925 !important;
+  }
+  /* style for carousel */
+  .carousel-indicators li {
+    border: none;
+    width: 15px;
+    border-radius: 15px;
+    height: 10px;
+    background-image: linear-gradient(to right, #ffa132 0%, #ffd019 100%);
+  }
+  .carousel-indicators .active {
+    width: 30px;
+  }
+  
+  .caro-title {
+    font-weight: bolder;
+  }
+  
+  p {
+    color: #8c8c8c;
+    line-height: 25px;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 20px 0;
+  }
+  
+  /* button style */
+  
+  .buy-now {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+  }
+  button.buy-now:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 14px 18px;
+  }
+  
+  /* card style */
+  
+  .card {
+    border: none;
+    box-shadow: 1px 1px 15px #efeeee;
+    border-radius: 15px;
+  }
+  .card img {
+    width: 60%;
+    padding: 20px 0;
+  }
+  
+  .smartphone a,
+  .laptop a {
+    color: #fb9925;
+    font-weight: 600;
+  }
+  
+  /* category img style */
+  .pale-order img {
+    width: 100%;
+  }
+  
+  .img-left {
+    border-radius: 10px 15px 10px 30px;
+    box-shadow: 10px 10px 20px #ece9e9;
+    padding: 20px 30px 0 30px;
+  }
+  .img-right-1,
+  .img-right-2 {
+    border-radius: 15px 10px 30px 10px;
+    box-shadow: 10px 10px 20px #ece9e9;
+    padding: 20px 30px 0 30px;
+  }
+  .col-md-3 {
+    max-width: 100%;
+  }
+  
+  hr {
+    margin-top: 0;
+    border-top: 0;
+    width: 80px;
+    border: 5px solid #fb9925;
+    border-radius: 5px;
+  }
